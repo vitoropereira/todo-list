@@ -11,16 +11,16 @@ content-type: application/json
 
 ###
 # @name createTask
-POST http://localhost:8080/tasks/
+POST http://localhost:8080/tasks/ 
 content-type: application/json
+Authorization: Basic vitorpereira:12345678
 
 {
   "description": "tarefa para gravar aula de tasks do curso.",
   "title": "curso de java",
   "priority": "Alta",
   "startAt": "2024-04-28T10:00:00",
-  "endAt": "2024-04-29T10:00:00",
-  "idUser":"2e25ad42-2ffe-4799-a301-0e16041b9bfc"
+  "endAt": "2024-04-29T10:00:00"
 }
 
 
