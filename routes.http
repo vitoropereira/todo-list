@@ -23,5 +23,20 @@ Authorization: Basic vitorpereira:12345678
   "endAt": "2024-04-29T10:00:00"
 }
 
+###
+# @name listUserTask
+GET http://localhost:8080/tasks/ 
+content-type: application/json
+Authorization: Basic vitorpereira:12345678
 
+
+###
+# @name updateTask
+PUT http://localhost:8080/tasks/26631c3e-7078-48ad-89ca-4865b5be4981
+content-type: application/json
+Authorization: Basic vitorpereira:12345678
+
+{
+  "priority": "baixa"
+}
 
